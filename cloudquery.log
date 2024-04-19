@@ -1,0 +1,2 @@
+2024-04-19T17:39:03Z ERR exiting with error error="failed to read package.json: open dist\\package.json: The system cannot find the file specified." invocation-id=d9656b46-cb63-4875-a106-98dd7d068832 module=cli
+2024-04-19T18:45:23Z ERR exiting with error error="failed to read package.json: open dist\\package.json: The system cannot find the file specified." invocation-id=40e7b38b-7298-42a0-8fba-6d6b408d7ac8 module=cli
