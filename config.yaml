@@ -5,4 +5,4 @@ spec:
   registry: cloudquery
   version: "v2.8.2"
   spec:
-    connection_string: "host=localhost;port=3306;user=myuser;dbname=cvedatabase"
+    connection_string: "host=localhost;port=3306;user=root;password=cve;dbname=mydatabase"
