@@ -1,13 +1,11 @@
 {
-    "type": "mysql",
-    "host": "localhost",
-    "port": 3306,
-    "username": "root",
-    "password": "",
-    "database": "cveDatabase",
-    "synchronize": false,
-    "logging": false,
-    "entities": [
-        "src/entity/**/*.ts"
-    ]
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "cveDatabase",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/**/*.ts"]
 }
