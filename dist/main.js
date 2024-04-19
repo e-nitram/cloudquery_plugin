@@ -16,7 +16,7 @@ const mysql = require('mysql2/promise');
 const mysqlConfig = {
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'cve',
     database: 'cvedatabase'
 };
 function openDb() {

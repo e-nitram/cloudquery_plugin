@@ -6,7 +6,8 @@ const mysqlConfig = {
   host: 'localhost',
   user: 'root',
   password: 'cve',
-  database: 'cvedatabase'
+  database: 'cvedatabase',
+  port: 3306,
 };
 
 export async function openDb() {
