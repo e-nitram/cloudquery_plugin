@@ -3,11 +3,11 @@ const mysql = require('mysql2/promise');
 
 // Configuration for your MySQL database
 const mysqlConfig = {
-  host: 'localhost',
+  host: '127.0.0.1',
   user: 'root',
   password: 'cve',
   database: 'cvedatabase',
-  port: 3306,
+  port: 7777,
 };
 
 export async function openDb() {

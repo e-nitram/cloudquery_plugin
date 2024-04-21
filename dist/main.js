@@ -14,11 +14,11 @@ const axios = require('axios');
 const mysql = require('mysql2/promise');
 // Configuration for your MySQL database
 const mysqlConfig = {
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root',
     password: 'cve',
     database: 'cvedatabase',
-    port: 3306,
+    port: 7777,
 };
 function openDb() {
     return __awaiter(this, void 0, void 0, function* () {
