@@ -17,7 +17,8 @@ const mysqlConfig = {
     host: 'localhost',
     user: 'root',
     password: 'cve',
-    database: 'cvedatabase'
+    database: 'cvedatabase',
+    port: 3306,
 };
 function openDb() {
     return __awaiter(this, void 0, void 0, function* () {
